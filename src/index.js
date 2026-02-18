@@ -8,7 +8,7 @@ function main() {
   app.use(cors(), json());
 
   root(app);
-  app.listen(HOST_PORT ?? 3000, () => {
+  app.listen(HOST_PORT, () => {
     console.info(`Server started on port ${HOST_PORT}`);
   });
 }
