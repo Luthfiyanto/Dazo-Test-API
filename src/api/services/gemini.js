@@ -1,10 +1,10 @@
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { PromptTemplate } from "@langchain/core/prompts";
-import { GEMINI_API_KEY } from "./../../libs/env.js";
-import products from "./../../utils/product.json" assert { type: "json" };
+import { GEMINI_API_KEY, GEMINI_MODEL } from "./../../libs/env.js";
+import products from "./../../utils/product.json" with { type: "json" };
 
 const model = new ChatGoogleGenerativeAI({
-  model: "gemini-2.5-flash",
+  model: GEMINI_MODEL,
   apiKey: GEMINI_API_KEY,
   maxRetries: 3,
   apiVersion: "v1",

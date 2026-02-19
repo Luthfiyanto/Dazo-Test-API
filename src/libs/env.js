@@ -17,3 +17,4 @@ if (process.env.NODE_ENV !== "production") {
 
 export const HOST_PORT = process.env.PORT ? process.env.HOST_PORT : 3000;
 export const GEMINI_API_KEY = process.env.GEMINI_API_KEY ?? process.env.GEMINI_API_KEY;
+export const GEMINI_MODEL = process.env.GEMINI_MODEL ?? process.env.GEMINI_MODEL;
