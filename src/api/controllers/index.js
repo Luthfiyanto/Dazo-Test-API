@@ -1,4 +1,5 @@
 import { chatAI } from "../services/gemini.js";
+import { logProductToExcel } from "../services/excel.js";
 
 export function ping(_req, res) {
   res.status(200).json({
@@ -20,15 +21,19 @@ export async function chat(req, res) {
 
     // logic excel
     if (parsed.interestedProduct) {
-      let hore = "Horee";
+      const saved = await logProductToExcel({
+        product: parsed.interestedProduct,
+        userMessage: message,
+        aiReply: parsed.reply,
+      });
     }
 
     res.json({
-      reply: parsed,
+      reply: parsed.reply,
     });
   } catch (e) {
     res.status(500).json({
-      message: `AI processing failed`,
+      message: `AI processing failed: ${e}`,
     });
   }
 }

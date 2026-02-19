@@ -1,0 +1,72 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Paket Basic",
+    "price": 99000,
+    "description": "Paket entry-level untuk kebutuhan bisnis kecil dengan fitur dasar.",
+    "features": ["1 User", "Email Support", "Dashboard Basic"]
+  },
+  {
+    "id": "prod_002",
+    "name": "Paket Premium",
+    "price": 249000,
+    "description": "Paket menengah dengan fitur analitik dan integrasi tambahan.",
+    "features": ["5 Users", "Priority Support", "Analytics Dashboard", "API Access"]
+  },
+  {
+    "id": "prod_003",
+    "name": "Paket Enterprise",
+    "price": 599000,
+    "description": "Solusi lengkap untuk perusahaan besar dengan kebutuhan kustom.",
+    "features": ["Unlimited Users", "Dedicated Support", "Custom Integration", "Advanced Security"]
+  },
+  {
+    "id": "prod_004",
+    "name": "Paket Starter",
+    "price": 59000,
+    "description": "Paket hemat untuk individu yang baru memulai bisnis online.",
+    "features": ["1 User", "Community Support", "Basic Reports"]
+  },
+  {
+    "id": "prod_005",
+    "name": "Paket Growth",
+    "price": 199000,
+    "description": "Paket untuk bisnis berkembang dengan kebutuhan kolaborasi tim.",
+    "features": ["3 Users", "Team Collaboration", "Standard Reports"]
+  },
+  {
+    "id": "prod_006",
+    "name": "Paket Professional",
+    "price": 329000,
+    "description": "Paket profesional dengan performa tinggi dan monitoring sistem.",
+    "features": ["10 Users", "Performance Monitoring", "Automation Tools"]
+  },
+  {
+    "id": "prod_007",
+    "name": "Paket Commerce",
+    "price": 279000,
+    "description": "Paket khusus untuk bisnis e-commerce dengan integrasi pembayaran.",
+    "features": ["Payment Gateway", "Order Tracking", "Inventory Management"]
+  },
+  {
+    "id": "prod_008",
+    "name": "Paket Education",
+    "price": 149000,
+    "description": "Paket untuk institusi pendidikan dengan fitur manajemen kelas.",
+    "features": ["Class Management", "Student Analytics", "Content Library"]
+  },
+  {
+    "id": "prod_009",
+    "name": "Paket Marketing",
+    "price": 219000,
+    "description": "Paket untuk tim marketing dengan fitur campaign dan tracking.",
+    "features": ["Campaign Manager", "Lead Tracking", "Email Automation"]
+  },
+  {
+    "id": "prod_010",
+    "name": "Paket Custom",
+    "price": 0,
+    "description": "Paket fleksibel yang bisa disesuaikan dengan kebutuhan bisnis.",
+    "features": ["Custom Features", "Flexible Pricing", "Dedicated Consultant"]
+  }
+]
