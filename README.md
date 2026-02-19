@@ -1,7 +1,7 @@
 # DAZO CHAT API
 
 Technical Home Test - Chatbot Web API
-Built with Express.js, langchain, xlxs
+Built with Express.js, langchain, xlsx
 
 Integrated with GEMINI API
 
